@@ -1,0 +1,507 @@
+
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    padding-top: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('./netbg.jpg');
+}   
+
+.logo{
+    width: 50px;
+}
+
+.signin-btn{
+    width: 80px;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: solid;
+    color: rgb(245, 238, 238);
+    background-color:#E50914;
+    border: none;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    color: rgb(228, 228, 228);
+    line-height: 5vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('./netbg.jpg');
+    background-size: cover;
+    
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    font-family: sans-serif;
+    }
+
+.h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 10vh;
+    
+    
+}
+
+  .p1{
+        font-size: 0.8rem;
+        padding-left: 60px;
+    }
+
+    .p2{
+        font-size: 1rem;
+    }
+
+    .email-input{
+        height: 50px;
+        width: 250px;
+        padding-left: 20px;
+        font-size: 1rem;
+        font-weight: 100;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: #13100F;
+    }
+
+    .try-btn{
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 1rem;
+        font-weight: 800;
+        border-radius: 5px;
+        background-color: red;
+        margin-left: 5px;
+    }
+
+    .container{
+        display: flex;
+        position: relative;
+        justify-content:center;
+        align-items: center;
+        padding-left: 90px;
+        padding-right: 90px;
+        background-color: rgb(9, 9, 9);
+        gap: 40px;
+        border: 5px;
+        
+    }
+
+    .section1{
+        border-top: 5px solid #E40A17;
+        border-radius: 100% 100% 0 0/50px 50px 0 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 4%, rgba(14, 25, 60, 0.9)100%)
+    }
+
+        
+    .trend-img1{
+        background-image: url('https://occ-0-8620-1490.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdqa3soiO1KTrWi85Gx-ADgSE8xtDXGW0ImRCcXK6Ni8u3m23anJb3xJCtDAMhEYMUuNc-vlL6DkMFJyESVMGJDwuUlCtN3KwGk.webp?r=599');
+        background-size: cover;
+        padding: 50px; 
+        text-align: center;
+        width: 90px;
+        height: 118px;
+        border-radius: 10px;
+    }
+
+    .trend-img2{
+        background-image: url('https://occ-0-8620-1490.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYMJOpwnAZIoMUgOROfg4f5HaS2Rs-vsp9ue-oVi_GpL52CBKfYbmqe7miOu8l3BDGv-6_r-5SsZUrBb4vPxDuKNnZotR0Un3O4Kyxh5fgqD2BnjYtqM4mKoepuEZeZrYfF5.webp?r=627');
+        background-size: cover;
+        padding: 50px; 
+        text-align: center;
+        width: 90px;
+        height: 118px;
+        border-radius: 10px;
+    }
+
+    .trend-img3{
+        background-image: url('https://occ-0-8620-1490.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZCAj_cjZ0VPF4_qeXYvIyyqKAzsm_rBTGONuyQXScqkmWQihnkqq-HNGREZrqkYh4T0jY2wBf3bWHhuxVfdte_zEkBCEim72KZKSPS7PQ2VZsocyROFd7xn50C2e8UjJvep.webp?r=d64');
+        background-size: cover;
+        padding: 50px; 
+        text-align: center;
+        width: 90px;
+        height: 118px;
+        border-radius: 10px;
+    }
+
+    .trend-img4{
+        background-image: url('https://occ-0-8620-1490.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABR1FkTExzj5mZAniFP89syyuN1NQ0oxv-bMAO56QZ7YXi4SoSv-tG8NVzxvBdbwiiYBRmZGoL3zhwzNMpMp-gchNW3oMuNpgTY8.webp?r=0b3');
+        background-size: cover;
+        padding: 50px; 
+        text-align: center;
+        width: 90px;
+        height: 118px;
+        border-radius: 10px;
+    }
+
+    .trend-img5{
+        background-image: url('https://occ-0-8620-1490.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABV_oJPedN9O1LzeglIVBrs8pKCDK5S1GXPWpKz70PruwgasoAwUBt7BT2bj7O1vIRmypdFe_0tvy5mM2oHT3FmOm9hVkRTPhzv90b_R9855lzsRaV5i-IN8IjaG18Arvvqed.webp?r=6e2');
+        background-size: cover;
+        padding: 50px; 
+        text-align: center;
+        width: 90px;
+        height: 118px;
+        border-radius: 10px;
+    }
+
+    .trend-img6{
+        background-image: url('https://occ-0-8620-1490.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeGtVfRUQaCDtTppYUMK2KSgmJdVZjmAYhKXHdkPKnfmLQrH9I4yNE_Rp43H2AYnhNCpxcJBVBnbWH7PRUKWiERMt5eP5ytBzykJU5VXiIVeqHPJVd5yBst9XGTH3iqT42kS.webp?r=d84');
+        background-size: cover;
+        padding: 50px; 
+        text-align: center;
+       width: 90px;
+        height: 118px;
+        border-radius: 10px;
+    }
+
+    .trend-num{
+        display: flex;
+        position: relative;
+        left: -70px;
+        color: rgb(65, 65, 65);
+        font-size: 4.5rem;
+        font-weight: 900;
+        -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+        text-shadow: 0 0 1.5rem 24px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .h2{
+        display: flex;
+        color: white;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .section2{
+        background-color: black;
+        color: white;
+        
+    }
+
+    .container-div{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .reason{
+        width: 250px;
+        height: 200px;
+        background-color: #1F1425;
+        border-radius: 20px;
+        padding-left: 10px;
+       
+    }
+
+    .more-reason{
+        display: flex;
+        color: white;
+        margin-top: 100px;
+        margin-left: 70px;
+        
+    }
+
+    .parag{
+        color: lightgray;
+    }
+
+
+    .tv{
+        display: flex;
+        position: relative;
+        height: 50px;
+        width: 50px;
+        margin-left: 180px;
+        
+    }
+       
+    .quiz{
+        color: white;
+        margin-top: 70px;
+        padding: 0px 70px;
+    }
+
+    .quiz-parag{
+        display: flex;
+        align-items: center;
+        width: 95%;
+        height: 60px;
+        background-color: #414141;
+        padding: 10px 20px; 
+    }
+
+    .quiz-container{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.4rem;
+        gap: 10px;
+    }
+
+
+
+    .addition-sign{
+       
+        color: white;
+        font-size: 5rem;
+        margin-left: auto;
+        margin-right: 10px;
+        font-weight: lighter;
+    }
+
+    .feature-add-btn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    
+}
+
+.feature-add-btn svg{
+    width: 90px;
+    height: 900px;
+    
+}
+    .membership1{
+        margin-left: 270px;
+        margin-top: 70px;
+        color: rgb(255, 255, 255);
+    }
+
+    .membership{
+        margin-left: 50px;
+    }
+
+    .validity{
+        color: #B3AD9C;
+        justify-items: center;
+        padding: 0px 70px;
+        margin-top: 30px;
+    }
+
+    
+
+    .faq1{
+        color:#B3AD9C;
+        display: grid;
+        grid-template-columns: 370px 320px 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-left: 70px;
+        margin-top: 30px;
+        line-height: 30px;
+        row-gap: -0px;
+    }
+
+    .contact{
+        color: #B3AD9C;
+        padding-left: 70px ;
+        margin-top: 70px;
+    }
+
+    #language{
+        margin-top: 60px;
+        height: 30px;
+        width: 120px;
+        background-color: transparent;
+        color: #B3AD9C;
+        font-size: 1rem;
+        padding-bottom: 10px;
+        margin-left: 70px;
+        border-radius: 5px;
+    }
+
+    footer{
+        
+        color: #B3AD9C;
+        font-size: small;
+        padding-left: 0px;
+        padding-bottom: 200px;
+        margin-top: 50px;
+    }
+
+    .net-nig{
+        color: #B3AD9C;
+        font-style: normal;
+        padding: 30px 0px 30px 70px;
+        
+    }
+
+    .faq2{
+        color:#B3AD9C;
+        font-weight:bold;
+    }
+
+    .prot-page{
+        margin-left: 70px;
+        margin-top: 0px;
+    }
+
+    
+
+    @media(max-width:700px){
+    .logo{
+        width: 130px;
+    }
+
+
+    .header{
+        padding: 0px 20px;
+    }
+
+    .hero-section{
+        line-height: 1.5vh;
+        padding: 30px;
+       padding-bottom: 200px;
+    }
+
+    .signin-btn{
+    width: 115px;
+    height: 5opx;
+    font-size: 1.8rem;
+    }
+  
+    .h1{
+        font-weight: 600;
+        font-size: 3.5rem;
+        line-height: 5vh;
+        margin-top: 130px;
+    }
+
+    .p1{
+        font-size: 1.7rem;
+        padding-left: 20px;
+        font-weight: 100;
+        
+    }
+
+    .p2{
+        visibility: hidden;
+    }
+
+      .try-btn{
+        height: 7vh;
+        width: 55vw;
+        font-size: 1.8rem;   
+        border: none; 
+    }
+
+
+    .new-member{
+        font-size: 1.5rem;
+    }
+
+    .h2{
+        
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+
+    .faq1{
+        
+        grid-template-columns: 1fr;
+        align-content: flex-start;
+        font-size: 1.5rem;
+        line-height: 5vh;
+    }
+    
+    .membership1{
+        margin-left: 70px;
+        margin-top: 0px;
+        
+    }
+
+    .membership{
+        
+        visibility: hidden;
+    }
+
+    
+    .email-input{
+        visibility:hidden;
+
+    }
+    
+    .quiz-parag{
+        height: 8vh;
+    }
+    
+
+    .quiz-container{
+        font-size: 1.5rem;
+    }
+
+    .container-div{
+        display: grid;
+        justify-content:center;
+        gap: 20px;
+    }
+       
+    .reason{
+        width: 85vw;
+        height: 25vh;
+        font-size:x-large;
+        padding: 10px 10px 10px 10px;
+    
+        
+    }
+
+    
+
+    .more-reason{
+        margin-left: 50px;
+    }
+    
+    
+
+    .tv{
+        margin-top: 90px;
+        margin-left: 450px;
+    }
+
+    footer{
+        
+        
+        font-size: 1.5rem;
+    }
+
+    .validity{
+        font-size: 1.6rem;
+    }
+
+     #language{
+       color: white;
+        height: 5vh;
+        width: 30vw;
+        padding-left: 20px;
+        font-size: 1.6rem;
+       
+    }
+       
+}
+
+
+
+
+  
+    
